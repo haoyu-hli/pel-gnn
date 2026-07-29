@@ -1,0 +1,49 @@
+{
+  "dataset": {
+    "networks": 6,
+    "minima": 1688,
+    "saddles": 1712,
+    "directed_targets": 3424,
+    "source_minima": 300,
+    "attempts_per_source": 64
+  },
+  "site_selector": {
+    "top_10_activity_uplift": 8.083,
+    "top_10_core_recall": 0.1288,
+    "soft_mode_top_10_activity_uplift": 6.389,
+    "soft_mode_top_10_core_recall": 0.0555
+  },
+  "mode_proposer": {
+    "mean_best_overlap": 0.10697,
+    "site_random_mean_best_overlap": 0.05239,
+    "global_random_mean_best_overlap": 0.03264,
+    "fraction_overlap_at_least_0.2": 0.1559
+  },
+  "common_soft_mode_subset": {
+    "minima": 291,
+    "physical_modes_mean_best_overlap": 0.11491,
+    "learned_mean_best_overlap": 0.07927,
+    "site_random_mean_best_overlap": 0.04925,
+    "global_random_mean_best_overlap": 0.03288
+  },
+  "prospective_artn": {
+    "source_minima": 120,
+    "networks": 6,
+    "parent_glasses": 2,
+    "attempts_per_source_per_arm": 48,
+    "hybrid_allocation": {
+      "learned": 20,
+      "site_weighted_random": 20,
+      "native32": 8
+    },
+    "hybrid_mean_unique_saddles_per_source": 7.55,
+    "global_random_mean_unique_saddles_per_source": 5.566666666666666,
+    "yield_ratio": 1.3562874251497006,
+    "mean_paired_difference": 1.9833333333333334,
+    "hierarchical_network_root_95ci_mean_difference": [
+      1.2833333333333334,
+      2.7083333333333335
+    ],
+    "networks_with_positive_mean_difference": 6
+  }
+}
